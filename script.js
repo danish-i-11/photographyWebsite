@@ -20,13 +20,9 @@ $(document).ready(function(){
       $("#responsive-nav-bar").slideToggle();
     });
   
-    $("#responsive-home-item , #responsive-features-item , #responsive-products-item , #responsive-media-item , #responsive-pricing-item").click(function(){
+    $("#responsive-home-item").click(function(){
       $("#responsive-nav-bar").slideToggle(200);
     })
   
   });
   
-
-
-
-
